@@ -15,7 +15,12 @@ None so far.
 
 ## Roadmap
 
-1. get something going.
+1. get something very basic going and establish and initially working end-user delivery pipeline.
+    * use GH releases.
+    * plain manual install instructions for MacOSX/Linux only.
+2. lazy creation of $HOME/.cloaq dir structure.
+3. have config from $HOME/.cloaq/config (YAML).
+4. smart http caching under $HOME/.cloaq/http-cache (have TTL's per HTTP resource in config, with nice defaults).
 
 ## Distribution
 
