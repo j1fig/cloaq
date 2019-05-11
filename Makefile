@@ -6,7 +6,7 @@ WINDOWS_RELEASE_DIR = ${RELEASE_DIR}/windows-amd64
 
 .PHONY: install
 install:
-	go install cmd
+	go install
 
 .PHONY: release
 release:
